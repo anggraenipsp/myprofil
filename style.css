@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    font-size: 15px;
+    padding-bottom: 8px;
+    padding-top: 1px;
+    background-color: rgb(187, 173, 137);
+    text-align: center;
+    color: white;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    display: flex;
+    background-image: url("https://storage.googleapis.com/dicoding-storage-27103/baground.jpg");
+    padding: 10%;
+}
+
+aside {
+    flex: 1;
+    font-size: 15px;
+    margin-top: -80px;
+    margin-left: 450px;
+}
+
+footer {
+    padding: 5px;
+    color: white;
+    background-color: rgb(187, 173, 137);
+    text-align: center;
+}
+
+section {
+    margin: -90px;
+}
+
+#profil {
+    border-radius: 50%;
+    width: 10%;
+}
+
+#heart {
+    border-radius: 50%;
+    width: 1.2%;
+}
